@@ -1,0 +1,14 @@
+name: organFinder
+channels:
+- conda
+- conda-forge
+dependencies: 
+- python >=3
+- numpy
+- tensorflow
+- pip
+- pip:
+  - matplotlib
+  - opencv-python
+  - scikit-image
+
